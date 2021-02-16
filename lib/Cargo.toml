@@ -1,0 +1,23 @@
+[package]
+name = "benvolio"
+version = "0.1.0"
+authors = ["teymour-aldridge <teymour.aldridge@icloud.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Run doc tests for all files matching a glob patten."
+homepage = "https://github.com/lovelace-ed/benvolio"
+documentation = "https://docs.rs/benvolio"
+repository = "https://github.com/lovelace-ed/benvolio"
+readme = "README.md"
+
+[lib]
+proc-macro=true
+
+[dependencies]
+quote = "1.0.9"
+syn = "1.0.60"
+glob = "0.3.0"
+
+[dev-dependencies]
+trybuild = "1.0.41"
+
